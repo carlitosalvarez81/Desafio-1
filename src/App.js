@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar/NAVBAR";
+import Header from "./components/Header/Header";
 import Footer from "./components/Footer/FOOTER";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
@@ -8,7 +8,7 @@ function App() {
     <h1> Mi primera app </h1>
     <Navbar/>
     <ItemListContainer greeting={"hola, hola, hola"}/>
-    <Footer greeting= {"Aca estamos"}/>
+    <Footer/>
     </div>
   ); 
 }

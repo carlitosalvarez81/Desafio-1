@@ -1,6 +1,8 @@
+
+import React from "react";
 import CartIcon from "../CartIcon/CARTICON";
 
-export default function Navbar() {
+export default function Header() {
     return (
       <header>
           <ul>
