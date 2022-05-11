@@ -1,18 +1,20 @@
 import React from "react"
-export default function itemCount (){
+export default function ItemCount (){
 
     const [count, setCount] = React.useState (1)
 
     const stock = 5
 
-    const onAdd = () => {
-        if(count < stock) {
-        setCount (count + 1)}
+    function onAdd() {
+        if (count < stock) {
+            setCount(count + 1)
+        }
     }
 
-    const onDecrease = () => {
-        if (count >1) {
-        setCount (count -1)}
+    function onDecrease() {
+        if (count > 1) {
+            setCount(count - 1)
+        }
     }
 
 
